@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Homepage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        .header {
+            background-color: #ff4757;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 24px;
+        }
+        .search-bar {
+            text-align: center;
+            margin: 20px;
+        }
+        .search-bar input {
+            width: 80%;
+            padding: 10px;
+            font-size: 18px;
+        }
+        .restaurants {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .restaurant-card {
+            background-color: white;
+            width: 300px;
+            padding: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            text-align: center;
+        }
+        .restaurant-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .restaurant-card h3 {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+<form action="home">
+    <div class="header">Find Your Favorite Restaurant</div>
+    
+    <div class="search-bar">
+        <input type="text" placeholder="Search for restaurants...">
+    </div>
+    
+    <div class="restaurants">
+        <div class="restaurant-card">
+            <img src="https://via.placeholder.com/300" alt="Restaurant Image">
+            <h3>Restaurant Name</h3>
+            <p>Delicious food | Fast delivery</p>
+        </div>
+        <div class="restaurant-card">
+            <img src="https://via.placeholder.com/300" alt="Restaurant Image">
+            <h3>Restaurant Name</h3>
+            <p>Best flavors | Great ambience</p>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
